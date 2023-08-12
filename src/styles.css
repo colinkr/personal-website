@@ -1,1 +1,68 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  --background-primary: #111111;
+  --background-secondary: #1e1e1e;
+  --text: #cccccc;
+  --link: #6a04c9;
+}
+
+nav {
+  background-color: var(--background-secondary);
+}
+
+.contact-elements {
+  padding-left: 0.5rem;
+}
+
+body{
+  background-color: var(--background-primary);
+  color: var(--text);
+}
+
+.fi {
+  line-height: 2rem;
+  width: 2rem;
+  margin-right: 2%;
+}
+
+.profile-img {
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.back-btn {
+  color: var(--text);
+  font-size: 24px;
+}
+
+.link {
+  color: var(--text)
+}
+
+/* Landscape phones and down */
+@media (max-width: 992px) {
+  .contact-elements {
+    display: none;
+  }
+  .mail-div {
+    text-align: end;
+  }
+
+  .profile-img-div {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .profile-img {
+    width: 50%;
+  }
+}
+
+
