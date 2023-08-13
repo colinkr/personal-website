@@ -9,6 +9,10 @@ nav {
   background-color: var(--background-secondary);
 }
 
+.social-media-link-icon {
+  color: var(--link);
+}
+
 .contact-elements {
   padding-left: 0.5rem;
 }
