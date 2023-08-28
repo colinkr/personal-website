@@ -1,4 +1,3 @@
-
 # Personal Website
 
 Personal website from webdeveloper Colin Kristen.
@@ -13,17 +12,9 @@ Personal website from webdeveloper Colin Kristen.
 
 ## Roadmap
 
-- More Projects
-- Contact-Inputfield
-
-## Color Reference
-
-| Color                | Hex                                                              |
-|----------------------|------------------------------------------------------------------|
-| background-primary   | ![#111111](https://via.placeholder.com/10/111111?text=+) #111111 |
-| background-secondary | ![#1e1e1e](https://via.placeholder.com/10/1e1e1e?text=+) #1e1e1e |
-| text                 | ![#cccccc](https://via.placeholder.com/10/cccccc?text=+) #cccccc |
-| link                 | ![#6a04c9](https://via.placeholder.com/10/6a04c9?text=+) #6a04c9 |
+- More projects
+- Contact-inputfield
+- Refine texts
 
 
 ## Author
