@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {LanguageService} from "./services/language/language.service";
 
 @Component({
   selector: 'app-root',
@@ -6,17 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'personal-website';
-  currentLang: string = 'DE';
-  currentPage: string = 'main';
 
-  changeLang(currentLang: string): void {
-    if(currentLang === 'DE') {
-      this.currentLang = 'EN';
-    } else if(currentLang === 'EN') {
-      this.currentLang = 'DE';
-    }
+  constructor(public languageService: LanguageService) {
   }
+
+  title = 'personal-website';
+  public currentPage: string = 'main';
 
   changeSite(link: string): void {
     this.currentPage = link;
