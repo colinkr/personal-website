@@ -1,10 +1,10 @@
 <body *ngIf="currentPage === 'main'">
 <div class="container">
   <div class="row">
-    <div class="col-11">
+    <div class="col-9">
       <h1>Colin Kristen</h1>
     </div>
-    <div class="col-1" style="text-align: end">
+    <div class="col-3" style="text-align: end">
       <button style="border: none; background-color: var(--background-primary)" *ngIf="currentLang=='DE'"><span class="fi fi-gb" (click)="changeLang(this.currentLang)" ></span></button>
       <button style="border: none; background-color: var(--background-primary)" *ngIf="currentLang=='EN'"><span class="fi fi-de" (click)="changeLang(this.currentLang)" ></span></button>
     </div>
