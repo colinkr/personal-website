@@ -67,7 +67,7 @@
 </body>
 
 
-<section *ngIf="currentPage === 'imprint'">
+<section class="imprint-section" *ngIf="currentPage === 'imprint'">
   <div class="container">
     <h3><button class="btn btn-primary back-btn" (click)="changeSite('main')">Zurück</button></h3>
 
@@ -100,7 +100,7 @@
   </div>
 </section>
 
-<section *ngIf="currentPage === 'privacy'">
+<section class="privacy-section" *ngIf="currentPage === 'privacy'">
   <div class="container">
     <h3><button class="btn btn-primary back-btn" (click)="changeSite('main')">Zurück</button></h3>
     <h1>Datenschutzerklärung</h1>
